@@ -98,6 +98,15 @@ export const SITE_CONTENT: SiteContent = {
       stack: ["PyTorch", "OpenCV", "XAI"],
     },
     {
+      name: "Face Recognition",
+      summary:
+        "face recognition system using FastAPI, OpenCV (YuNet + SFace), and real-time face detection for automated identity-based attendance tracking.",
+      linkPreview: "https://facedetection-ai.vercel.app/",
+      linkSource: "https://github.com/Jebaliya/Face-detection-app",
+      image: "/face-detection.png",
+      stack: ["PyTorch", "OpenCV", "XAI"],
+    },
+    {
       name: "Medical Diagnosis System",
       summary:
         "A medical diagnosis web app that captures user symptoms, predicts probable diseases with confidence scores, and generates downloadable reports with precaution recommendations.",
