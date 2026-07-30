@@ -92,6 +92,7 @@ export const SITE_CONTENT: SiteContent = {
       name: "Deep-Fake Detection",
       summary:
         "End-to-end deepfake detector using PyTorch, OpenCV, and explainable visual analysis for image authenticity classification.",
+      linkPreview: "https://deep-fake-detection-app.streamlit.app/",
       linkSource: "https://github.com/Jebaliya/deep-fake",
       image: "/deepfake.png",
       stack: ["PyTorch", "OpenCV", "XAI"],
