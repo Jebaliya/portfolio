@@ -1,7 +1,7 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Jayveer Jebaliya — AI/ML Developer",
+  title: "Jayveer Jebaliya — AI/ML Enthusiast",
   author: "Jayveer Jebaliya",
   description:
     "AI and Machine Learning developer building intelligent web and data-driven applications with Python, React, and Streamlit.",
@@ -71,13 +71,13 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
-      name: "RAG based Chatbot",
+      name: "Face Recognition",
       summary:
-        "Hybrid retrieval chatbot using ChromaDB, BM25 search, Groq API, and Docker deployment for document-driven answers.",
-      linkPreview: "https://rag-based-chatbot1.streamlit.app/",
-      linkSource: "https://github.com/Jebaliya/RAG-based-Chatbot",
-      image: "/rag.png",
-      stack: ["ChromaDB", "BM25", "Groq", "Docker"],
+        "face recognition system using FastAPI, OpenCV (YuNet + SFace), and real-time face detection for automated identity-based attendance tracking.",
+      linkPreview: "https://facedetection-ai.vercel.app/",
+      linkSource: "https://github.com/Jebaliya/Face-detection-app",
+      image: "/face-detection.png",
+      stack: ["PyTorch", "OpenCV", "XAI"],
     },
     {
       name: "AI Research Assistant",
@@ -92,20 +92,20 @@ export const SITE_CONTENT: SiteContent = {
       name: "Deep-Fake Detection",
       summary:
         "End-to-end deepfake detector using PyTorch, OpenCV, and explainable visual analysis for image authenticity classification.",
-      linkPreview: "https://deep-fake-detection-app.streamlit.app/",
+      linkPreview: "https://deep-fake-detection-ai.streamlit.app/",
       linkSource: "https://github.com/Jebaliya/deep-fake",
       image: "/deepfake.png",
       stack: ["PyTorch", "OpenCV", "XAI"],
     },
     {
-      name: "Face Recognition",
+      name: "RAG based Chatbot",
       summary:
-        "face recognition system using FastAPI, OpenCV (YuNet + SFace), and real-time face detection for automated identity-based attendance tracking.",
-      linkPreview: "https://facedetection-ai.vercel.app/",
-      linkSource: "https://github.com/Jebaliya/Face-detection-app",
-      image: "/face-detection.png",
-      stack: ["PyTorch", "OpenCV", "XAI"],
-    },
+        "Hybrid retrieval chatbot using ChromaDB, BM25 search, Groq API, and Docker deployment for document-driven answers.",
+      linkPreview: "https://rag-based-chatbot1.streamlit.app/",
+      linkSource: "https://github.com/Jebaliya/RAG-based-Chatbot",
+      image: "/rag.png",
+      stack: ["ChromaDB", "BM25", "Groq", "Docker"],
+    },    
     {
       name: "Medical Diagnosis System",
       summary:
