@@ -1,7 +1,7 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Jayveer Jebaliya — AI/ML Enthusiast",
+  title: "Jayveer Jebaliya — AI/ML Developer",
   author: "Jayveer Jebaliya",
   description:
     "AI and Machine Learning developer building intelligent web and data-driven applications with Python, React, and Streamlit.",
